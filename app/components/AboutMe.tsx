@@ -41,7 +41,7 @@ export default function AboutMe() {
         <div></div>
         <Image
           className={`w-full ${
-            constant.gender === "female" ? "lg:w-5/12" : "lg:w-5/12"
+            constant.gender === "female" ? "lg:w-5/12" : "lg:w-7/12"
           }`}
           src={constant.gender === "female" ? heroFemale : heroMale}
           alt="hero image"
