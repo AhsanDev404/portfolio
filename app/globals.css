@@ -7,3 +7,7 @@ html {
   font-family: "Sora", sans-serif;
   
 }
+.border-text {
+  -webkit-text-stroke-width: 1px; /* Width of the border */
+  -webkit-text-stroke-color: black; /* Color of the border */
+}
