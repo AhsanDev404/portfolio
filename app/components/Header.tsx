@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { logo } from "../utils/assets";
 import { MdOutlineFileDownload, MdClose } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
-import constant from "../utils/constants.json"
+import constant from "../utils/constants.json";
 
 interface NavButtons {
   name: string;
