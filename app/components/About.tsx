@@ -4,7 +4,7 @@ import { heroFemale, heroMale } from "../utils/assets";
 import Link from "next/link";
 import {developerInfo, links} from "../utils/constant"
 
-export default function AboutMe() {
+export default function About() {
   return (
     <div className="lg:h-[80vh] py-10">
       <div className="flex lg:flex-row flex-col-reverse gap-5 justify-center items-center">
