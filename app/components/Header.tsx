@@ -85,7 +85,7 @@ export default function Header() {
               className="w-full flex gap-2 justify-center py-2 px-4 mt-2 bg-gray-900 text-gray-100 rounded-lg hover:bg-gray-800"
               onClick={toggleMenu}
             >
-              Resume <lgOutlineFileDownload size={20} />
+              Resume <MdOutlineFileDownload size={20} />
             </button>
           </div>
         </div>
