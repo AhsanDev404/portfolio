@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function AboutMe() {
   return (
-    <div className="h-[80vh] py-10">
+    <div className="lg:h-[80vh] py-10">
       <div className="flex lg:flex-row flex-col-reverse gap-5 justify-center items-center">
         <div>
           <p className="text-2xl  lg:text-5xl leading-tight">
