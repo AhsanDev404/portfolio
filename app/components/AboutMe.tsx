@@ -1,10 +1,8 @@
 import React from "react";
-import constant from "../utils/constants.json";
 import Image from "next/image";
 import { heroFemale, heroMale } from "../utils/assets";
-import { FaGithubAlt } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
+import {developerInfo, links} from "../utils/constant"
 
 export default function AboutMe() {
   return (
@@ -14,16 +12,16 @@ export default function AboutMe() {
           <p className="text-2xl  lg:text-5xl leading-tight">
             Hello I’am{" "}
             <span className="font-bold">
-              {constant.fullName}. {constant.type}{" "}
+              {developerInfo.fullName}. {developerInfo.type}{" "}
             </span>{" "}
             <span className=" font-extrabold text-transparent border-text">
               Developer
             </span>{" "}
-            Based In <span className="font-bold">{constant.country}.</span>{" "}
+            Based In <span className="font-bold">{developerInfo.country}.</span>{" "}
           </p>
-          <p className="my-5 text-gray-500">{constant.description}</p>
+          <p className="my-5 text-gray-500">{developerInfo.description}</p>
           <div className="flex gap-5">
-            {constant.links.map((item: any, index) => (
+            {links.map((item: any, index) => (
               <Link
                 rel="noopener noreferrer"
                 target="_blank"
@@ -33,7 +31,7 @@ export default function AboutMe() {
                 href={item.link}
                 key={index}
               >
-                {item.name == "linkedin" ? <FaLinkedinIn /> : <FaGithubAlt />}
+                {<item.icon />}
               </Link>
             ))}
           </div>
@@ -41,9 +39,9 @@ export default function AboutMe() {
         <div></div>
         <Image
           className={`w-full ${
-            constant.gender === "female" ? "lg:w-5/12" : "lg:w-7/12"
+            developerInfo.gender === "female" ? "lg:w-5/12" : "lg:w-7/12"
           }`}
-          src={constant.gender === "female" ? heroFemale : heroMale}
+          src={developerInfo.gender === "female" ? heroFemale : heroMale}
           alt="hero image"
         />
       </div>

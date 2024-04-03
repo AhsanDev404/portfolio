@@ -4,29 +4,7 @@ import React, { useState } from "react";
 import { logo } from "../utils/assets";
 import { MdOutlineFileDownload, MdClose } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
-import constant from "../utils/constants.json";
-
-interface NavButtons {
-  name: string;
-}
-
-const navButtons: NavButtons[] = [
-  {
-    name: "AboutMe",
-  },
-  {
-    name: "Skills",
-  },
-  {
-    name: "Experience",
-  },
-  {
-    name: "Projects",
-  },
-  {
-    name: "Contact",
-  },
-];
+import { developerInfo, navButtons } from "../utils/constant";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,10 +17,10 @@ export default function Header() {
     <div className="flex items-center justify-around lg:justify-evenly text-gray-900 py-2 md:py-5 border-b ">
       <div className="flex items-center gap-2">
         <Image src={logo} alt="logo" />
-        <h5 className="font-bold text-lg">{constant.name}</h5>
+        <h5 className="font-bold text-lg">{developerInfo.name}</h5>
       </div>
       <div className="hidden lg:block">
-        {navButtons.map((item: NavButtons, index) => (
+        {navButtons.map((item, index) => (
           <button
             className="mx-3 font-semibold hover:text-gray-500"
             key={index}
@@ -72,7 +50,7 @@ export default function Header() {
                 <MdClose />
               </button>
             </div>
-            {navButtons.map((item: NavButtons, index) => (
+            {navButtons.map((item, index) => (
               <button
                 className="block w-full text-left py-2 px-4 hover:bg-gray-100 rounded-sm"
                 key={index}
