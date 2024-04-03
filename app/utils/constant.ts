@@ -1,8 +1,27 @@
 // constants.ts
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { DeveloperInfo, LinkType, NavButtons } from "./typeDefine";
-
+import { DeveloperInfo, LinkType, NavButtons, Skill } from "./typeDefine";
+import { 
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaAngular,
+  FaVuejs,
+  FaNodeJs,
+  FaDatabase,
+  FaDocker,
+  FaKubernetes,
+  FaGitAlt,
+  FaSass,
+  FaBootstrap,
+  FaTailwind,
+  FaGraphql,
+  FaApi,
+  FaMobileAlt,
+  FaRedux
+} from 'react-icons/fa';
 export const developerInfo: DeveloperInfo = {
   name: "AhsanDev404",
   fullName: "Ahsan",
@@ -43,4 +62,27 @@ export const navButtons: NavButtons[] = [
   {
     name: "Contact",
   },
+];
+
+export const skills: Skill[] = [
+  { name: 'HTML', icon: FaHtml5 },
+  { name: 'CSS', icon: FaCss3Alt },
+  { name: 'JavaScript', icon: FaJs },
+  { name: 'React', icon: FaReact },
+  { name: 'Angular', icon: FaAngular },
+  { name: 'Vue.js', icon: FaVuejs },
+  { name: 'Node.js', icon: FaNodeJs },
+  { name: 'Express.js', icon: FaNodeJs },
+  { name: 'MongoDB', icon: FaDatabase },
+  { name: 'MySQL', icon: FaDatabase },
+  { name: 'Docker', icon: FaDocker },
+  // { name: 'Kubernetes', icon: FaKubernetes },
+  { name: 'Git', icon: FaGitAlt },
+  { name: 'SASS', icon: FaSass },
+  { name: 'Bootstrap', icon: FaBootstrap },
+  // { name: 'Tailwind CSS', icon: FaTailwind },
+  // { name: 'GraphQL', icon: FaGraphql },
+  // { name: 'REST API', icon: FaApi },
+  { name: 'React Native', icon: FaMobileAlt },
+  // { name: 'Redux', icon: FaRedux },
 ];

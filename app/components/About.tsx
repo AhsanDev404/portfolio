@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import { heroFemale, heroMale } from "../utils/assets";
 import Link from "next/link";
-import {developerInfo, links} from "../utils/constant"
+import { developerInfo, links } from "../utils/constant";
 
 export default function About() {
   return (
-    <div className="lg:h-[80vh] py-10">
+    <div className="lg:h-[80vh] py-10 ">
       <div className="flex lg:flex-row flex-col-reverse gap-5 justify-center items-center">
-        <div>
+        <div className="flex flex-col gap-0 lg:gap-10 lg:w-6/12">
           <p className="text-2xl  lg:text-5xl leading-tight">
             Hello I’am{" "}
             <span className="font-bold">
@@ -36,11 +36,9 @@ export default function About() {
             ))}
           </div>
         </div>
-        <div></div>
+
         <Image
-          className={`w-full ${
-            developerInfo.gender === "female" ? "lg:w-5/12" : "lg:w-7/12"
-          }`}
+          className="w-6/12"
           src={developerInfo.gender === "female" ? heroFemale : heroMale}
           alt="hero image"
         />

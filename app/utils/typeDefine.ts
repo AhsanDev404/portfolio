@@ -18,3 +18,7 @@ export interface DeveloperInfo {
   description: string;
 
 }
+export interface Skill {
+  name: string;
+  icon: ComponentType;
+}
