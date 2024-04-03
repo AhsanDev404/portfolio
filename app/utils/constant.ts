@@ -12,15 +12,15 @@ import {
   FaNodeJs,
   FaDatabase,
   FaDocker,
-  FaKubernetes,
+  // FaKubernetes,
   FaGitAlt,
   FaSass,
   FaBootstrap,
-  FaTailwind,
-  FaGraphql,
-  FaApi,
+  // FaTailwind,
+  // FaGraphql,
+  // FaApi,
   FaMobileAlt,
-  FaRedux
+  // FaRedux
 } from 'react-icons/fa';
 export const developerInfo: DeveloperInfo = {
   name: "AhsanDev404",
