@@ -30,7 +30,7 @@ export default function Header() {
         ))}
       </div>
       <div className="hidden lg:block">
-        <button className="flex items-center gap-2 bg-gray-900 text-gray-100 py-2 px-3 rounded-sm">
+        <button className="flex items-center gap-2 bg-gray-900 text-gray-100 py-2 px-3 rounded-sm hover:bg-gray-50 hover:text-gray-900 border-2 border-gray-900  ">
           Resume <MdOutlineFileDownload size={20} />
         </button>
       </div>
@@ -55,6 +55,7 @@ export default function Header() {
                 className="block w-full text-left py-2 px-4 hover:bg-gray-100 rounded-sm"
                 key={index}
                 onClick={toggleMenu}
+                
               >
                 {item.name}
               </button>
