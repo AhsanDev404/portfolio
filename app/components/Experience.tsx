@@ -10,7 +10,7 @@ export default function Experience() {
       </p>
       <div>
         {experience.map((item, index) => (
-          <div className="m-5 lg:m-10 border-2 p-5 lg:p-10 rounded-lg hover:bg-gray-950 cursor-pointer">
+          <div className="mt-5 mx-5 lg:mt-10 lg:mx-10 border-2 p-5 lg:p-10 rounded-lg hover:bg-gray-950 cursor-pointer">
             <div className="lg:flex justify-between items-center">
               <div className="flex items-center gap-5">
                 <div>{<item.icon />}</div>
