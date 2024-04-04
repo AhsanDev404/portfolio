@@ -55,7 +55,6 @@ export default function Header() {
                 className="block w-full text-left py-2 px-4 hover:bg-gray-100 rounded-sm"
                 key={index}
                 onClick={toggleMenu}
-                
               >
                 {item.name}
               </button>
