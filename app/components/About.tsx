@@ -25,9 +25,7 @@ export default function About() {
               <Link
                 rel="noopener noreferrer"
                 target="_blank"
-                className={` rounded border-2 border-gray-900 p-2 ${
-                  item.name == "linkedin" && "bg-gray-900 text-gray-50"
-                } `}
+                className="rounded border-2 border-gray-900 p-2 cursor-pointer hover:text-gray-50 hover:bg-gray-900"
                 href={item.link}
                 key={index}
               >
