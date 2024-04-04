@@ -2,7 +2,7 @@
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { DeveloperInfo, Experience, LinkType, NavButtons, Skill } from "./typeDefine";
-import { 
+import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
@@ -30,9 +30,8 @@ export const developerInfo: DeveloperInfo = {
   country: "Pakistan",
   description:
     "With a solid foundation in MERN stack development, I specialize in crafting robust web and mobile applications. My expertise extends to Next.js and React Native, enabling me to deliver seamless user experiences across platforms. Passionate about the intersection of technology and innovation, I harness the power of artificial intelligence (AI) to develop intelligent solutions that optimize processes and drive business growth.",
-
+  skills: `I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me. \nI began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more. When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.`
 };
-
 export const links: LinkType[] = [
   {
     name: "linkedin",
@@ -87,7 +86,7 @@ export const skills: Skill[] = [
   // { name: 'Redux', icon: FaRedux },
 ];
 
-export const experience:Experience[] = [
+export const experience: Experience[] = [
   {
     companyName: "Tech Innovations Inc.",
     position: "Software Engineer",

@@ -1,7 +1,21 @@
-import React from 'react'
+import React from "react";
+import { developerInfo } from "../utils/constant";
+import Image from "next/image";
+import { skillMale } from "../utils/assets";
 
 export default function About() {
   return (
-    <div>About</div>
-  )
+    <div className="my-5 lg:my-10">
+      <p className="text-3xl text-center mb-5">
+        {" "}
+        About <span className="font-extrabold">Me</span>
+      </p>
+      <div className="flex gap-5 items-center ">
+        <Image src={skillMale} alt="skill male" />
+        <p className="w-[50%] text-lg text-gray-500 leading-relaxed">
+          {developerInfo.skills}
+        </p>
+      </div>
+    </div>
+  );
 }

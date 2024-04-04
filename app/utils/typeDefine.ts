@@ -23,6 +23,7 @@ export interface DeveloperInfo {
   type: string;
   country: string;
   description: string;
+  skills:string
 
 }
 export interface Skill {
