@@ -1,7 +1,7 @@
 // constants.ts
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { DeveloperInfo, LinkType, NavButtons, Skill } from "./typeDefine";
+import { DeveloperInfo, Experience, LinkType, NavButtons, Skill } from "./typeDefine";
 import { 
   FaHtml5,
   FaCss3Alt,
@@ -86,3 +86,29 @@ export const skills: Skill[] = [
   { name: 'React Native', icon: FaMobileAlt },
   // { name: 'Redux', icon: FaRedux },
 ];
+
+export const experience:Experience[] = [
+  {
+    companyName: "Tech Innovations Inc.",
+    position: "Software Engineer",
+    learning: "Advanced algorithms and data structures, team collaboration, project management",
+    tenure: "June 2018 - August 2021",
+    icon: FaLinkedinIn
+  },
+  {
+    companyName: "Digital Solutions Co.",
+    position: "Web Developer",
+    learning: "Front-end development with React.js, responsive design principles, RESTful API integration",
+    tenure: "September 2021 - Present",
+    icon: FaLinkedinIn
+  },
+  {
+    companyName: "Startup X",
+    position: "Product Manager",
+    learning: "Product lifecycle management, market analysis, user experience design",
+    tenure: "January 2016 - May 2018",
+    icon: FaLinkedinIn
+  }
+];
+
+

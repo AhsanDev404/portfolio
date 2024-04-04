@@ -8,6 +8,13 @@ export interface LinkType {
   link: string;
   icon: ComponentType;
 }
+export interface Experience {
+  companyName: string;
+  position: string;
+  learning: string;
+  tenure: string;
+  icon: ComponentType;
+}
 
 export interface DeveloperInfo {
   name: string;
