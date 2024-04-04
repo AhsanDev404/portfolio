@@ -6,7 +6,7 @@ import { developerInfo, links } from "../utils/constant";
 
 export default function About() {
   return (
-    <div className="lg:h-[80vh] py-10 ">
+    <div className="lg:h-[85vh] py-10 ">
       <div className="flex lg:flex-row flex-col-reverse gap-5 justify-center items-center">
         <div className="flex flex-col gap-0 lg:gap-10 lg:w-6/12">
           <p className="text-2xl  lg:text-5xl leading-tight">
