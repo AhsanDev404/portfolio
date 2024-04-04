@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
+import About from "./components/About";
 
 export default function Landing() {
   return (
@@ -9,6 +10,7 @@ export default function Landing() {
       <Home />
       <Skill />
       <Experience />
+      <About />
     </div>
   );
 }
