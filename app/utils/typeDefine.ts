@@ -30,3 +30,11 @@ export interface Skill {
   name: string;
   icon: ComponentType;
 }
+
+export interface Project {
+  number: string;
+  title: string;
+  description: string;
+  image: any;
+  type: string;
+}

@@ -10,9 +10,9 @@ export default function About() {
         {" "}
         About <span className="font-extrabold">Me</span>
       </p>
-      <div className="flex gap-5 items-center ">
+      <div className="lg:flex gap-5 items-center ">
         <Image src={skillMale} alt="skill male" />
-        <p className="w-[50%] text-lg text-gray-500 leading-relaxed">
+        <p className="lg:w-[50%]  text-lg text-gray-500 leading-relaxed">
           {developerInfo.skills}
         </p>
       </div>

@@ -1,7 +1,7 @@
 // constants.ts
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { DeveloperInfo, Experience, LinkType, NavButtons, Skill } from "./typeDefine";
+import { DeveloperInfo, Experience, LinkType, NavButtons, Project, Skill } from "./typeDefine";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -22,6 +22,7 @@ import {
   FaMobileAlt,
   // FaRedux
 } from 'react-icons/fa';
+import { project } from "./assets";
 export const developerInfo: DeveloperInfo = {
   name: "AhsanDev404",
   fullName: "Ahsan",
@@ -110,4 +111,28 @@ export const experience: Experience[] = [
   }
 ];
 
+export const projects: Project[] = [
+  {
+    number: "01",
+    title: "Crypto Screener Application",
+    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    image: project,
+    type: "MERN"
+  },
+  {
+    number: "02",
+    title: "E-commerce Website Redesign",
+    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    image: project,
+    type: "NEXT"
+  },
+  {
+    number: "03",
+    title: "Mobile App Development",
+    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    image: project,
+    type: "ReactNative"
+  },
+  // Add more projects here...
+];
 
