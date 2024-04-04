@@ -1,12 +1,12 @@
 import React from "react";
-import About from "./components/About";
+import Home from "./components/Home";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 
-export default function Home() {
+export default function Landing() {
   return (
     <div className="p-5 md:p-10">
-      <About />
+      <Home />
       <Skill />
       <Experience />
     </div>
