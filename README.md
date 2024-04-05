@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AhsanDev404 Portfolio Website
 
-## Getting Started
+## Introduction
+AhsanDev404 Portfolio Website is a Next.js web application designed for developers to create and customize their own portfolio websites easily. By simply editing the data in "/app/utils.constant.ts", developers can personalize the content to reflect their own skills, projects, and experiences.
 
-First, run the development server:
+## Usage
+To use AhsanDev404 Portfolio Website:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Download the code and unzip the file.
+2. Open your terminal and navigate to the project directory.
+3. Run `yarn install` or `npm install` to install dependencies.
+4. Once the dependencies are installed, run `npm run dev` or `yarn run dev` to start the development server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Hosting
+For free hosting, you can deploy your portfolio website on Vercel. Simply create a profile on Vercel and host your project there.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuration
+To personalize your portfolio, edit the data in "/app/utils.constant.ts" according to your preferences. This TypeScript file contains the information that will be displayed on your portfolio website, such as your name, skills, projects, and contact details.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Running the Project
+1. Navigate to the project directory in your terminal.
+2. Run `yarn install` to install dependencies if Yarn is installed. If not, use `npm install`.
+3. Once the dependencies are installed, run `npm run dev` to start the development server. If you're using Yarn, run `yarn run dev`.
 
-## Learn More
+## Contributing
+We welcome contributions from the community! If you'd like to contribute to AhsanDev404 Portfolio Website, please follow the guidelines outlined in the CONTRIBUTING.md file.
 
-To learn more about Next.js, take a look at the following resources:
+## License
+AhsanDev404 Portfolio Website is licensed under the [license type]. See the LICENSE file for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+If you have any questions, concerns, or suggestions, please feel free to contact us at [your email address].
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for using AhsanDev404 Portfolio Website! We hope it helps you showcase your skills and projects effectively.
