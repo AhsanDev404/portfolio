@@ -64,7 +64,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="my-5 lg:my-10">
+    <div id="Contact" className="my-5 lg:my-10">
       <p className="text-3xl text-center">
         {" "}
         My <span className="font-extrabold">Experience</span>

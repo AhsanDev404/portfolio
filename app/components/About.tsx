@@ -5,7 +5,7 @@ import { skillFemale, skillMale } from "../utils/assets";
 
 export default function About() {
   return (
-    <div className="my-5 lg:my-10">
+    <div id="AboutMe" className="my-5 lg:my-10">
       <p className="text-3xl text-center mb-5">
         {" "}
         About <span className="font-extrabold">Me</span>

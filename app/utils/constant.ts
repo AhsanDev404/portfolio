@@ -1,7 +1,7 @@
 // constants.ts
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { DeveloperInfo, Experience, LinkType, NavButtons, Project, Skill } from "./typeDefine";
+import { DeveloperInfo, Experience, LinkType, NavButtons, Project, Skill, Tab } from "./typeDefine";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -142,3 +142,20 @@ export const projects: Project[] = [
   // Add more projects here...
 ];
 
+
+
+
+export const tabs: Tab[] = [
+  {
+    name: "All",
+  },
+  {
+    name: "MERN",
+  },
+  {
+    name: "NEXT",
+  },
+  {
+    name: "ReactNative",
+  },
+];

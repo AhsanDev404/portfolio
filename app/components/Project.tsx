@@ -1,33 +1,16 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { projects } from "../utils/constant";
+import { projects, tabs } from "../utils/constant";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-interface Tab {
-  name: string;
-}
 
-const tabs: Tab[] = [
-  {
-    name: "All",
-  },
-  {
-    name: "MERN",
-  },
-  {
-    name: "NEXT",
-  },
-  {
-    name: "ReactNative",
-  },
-];
 
 export default function Project() {
   const [type, setType] = useState(tabs[0].name);
   return (
-    <div className="bg-gray-900 text-gray-50 -mx-5 md:-mx-10 md:p-10 p-5">
+    <div id="Projects" className="bg-gray-900 text-gray-50 -mx-5 md:-mx-10 md:p-10 p-5">
       <p className="text-3xl text-center">
         {" "}
         My <span className="font-extrabold">Projects</span>

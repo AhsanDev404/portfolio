@@ -42,3 +42,6 @@ export interface Project {
   type: string;
   link:string;
 }
+export interface Tab {
+  name: string;
+}

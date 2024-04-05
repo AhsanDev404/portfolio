@@ -12,6 +12,22 @@ export default function Header() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const handleDownload = () => {
+    // Create an anchor element
+    const anchor = document.createElement("a");
+    // Set the href attribute to the path of your PDF file
+    anchor.href = "../../MuhammadAhsan.pdf";
+    // Set the download attribute to force download
+    anchor.download = "MuhammadAhsan.pdf";
+    // Programmatically trigger a click event to download the file
+    anchor.click();
+  };
+  const scrollToTop = (id:string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="flex items-center justify-around lg:justify-evenly text-gray-900 py-2 md:py-5 border-b ">
@@ -22,6 +38,7 @@ export default function Header() {
       <div className="hidden lg:block">
         {navButtons.map((item, index) => (
           <button
+            onClick={()=>{scrollToTop(item.name)}}
             className="mx-3 font-semibold hover:text-gray-500"
             key={index}
           >
@@ -30,7 +47,7 @@ export default function Header() {
         ))}
       </div>
       <div className="hidden lg:block">
-        <button className="flex items-center gap-2 bg-gray-900 text-gray-100 py-2 px-3 rounded-sm hover:bg-gray-50 hover:text-gray-900 border-2 border-gray-900  ">
+        <button onClick={handleDownload} className="flex items-center gap-2 bg-gray-900 text-gray-100 py-2 px-3 rounded-sm hover:bg-gray-50 hover:text-gray-900 border-2 border-gray-900  ">
           Resume <MdOutlineFileDownload size={20} />
         </button>
       </div>
@@ -61,7 +78,10 @@ export default function Header() {
             ))}
             <button
               className="w-full flex gap-2 justify-center py-2 px-4 mt-2 bg-gray-900 text-gray-100 rounded-lg hover:bg-gray-800"
-              onClick={toggleMenu}
+              onClick={()=>{
+                toggleMenu()
+                handleDownload()
+              }}
             >
               Resume <MdOutlineFileDownload size={20} />
             </button>
