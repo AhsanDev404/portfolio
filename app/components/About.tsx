@@ -1,7 +1,7 @@
 import React from "react";
 import { developerInfo } from "../utils/constant";
 import Image from "next/image";
-import { skillMale } from "../utils/assets";
+import { skillFemale, skillMale } from "../utils/assets";
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
         About <span className="font-extrabold">Me</span>
       </p>
       <div className="lg:flex gap-5 items-center ">
-        <Image src={skillMale} alt="skill male" />
+        <Image src={developerInfo.gender == 'male' ? skillMale : skillFemale} alt="skill male" />
         <p className="lg:w-[50%]  text-lg text-gray-500 leading-relaxed">
           {developerInfo.skills}
         </p>
