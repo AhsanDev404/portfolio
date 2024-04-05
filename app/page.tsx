@@ -4,6 +4,7 @@ import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 export default function Landing() {
   return (
@@ -13,6 +14,7 @@ export default function Landing() {
       <Experience />
       <About />
       <Project />
+      <Contact />
     </div>
   );
 }
