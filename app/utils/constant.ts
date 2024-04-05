@@ -117,21 +117,24 @@ export const projects: Project[] = [
     title: "Crypto Screener Application",
     description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
     image: project,
-    type: "MERN"
+    type: "MERN",
+    link:"#",
   },
   {
     number: "02",
     title: "E-commerce Website Redesign",
     description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
     image: project,
-    type: "NEXT"
+    type: "NEXT",
+    link:"#",
   },
   {
     number: "03",
     title: "Mobile App Development",
     description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
     image: project,
-    type: "ReactNative"
+    type: "ReactNative",
+    link:"#",
   },
   // Add more projects here...
 ];

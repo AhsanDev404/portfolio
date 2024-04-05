@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { projects } from "../utils/constant";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface Tab {
   name: string;
@@ -59,7 +61,8 @@ export default function Project() {
                 <div className="lg:w-[50%] ">
                   <p className="text-4xl font-bold">{item.number}</p>
                   <p className="text-3xl font-bold my-5">{item.title}</p>
-                  <p className="text-gray-500"> {item.description}</p>
+                  <p className="text-gray-500 mb-5"> {item.description}</p>
+                  <Link className="text-gray-50 " href={item.link}><FaExternalLinkAlt size={25} /></Link>
                 </div>
               </div>
             );

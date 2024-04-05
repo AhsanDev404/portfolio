@@ -37,4 +37,5 @@ export interface Project {
   description: string;
   image: any;
   type: string;
+  link:string;
 }
