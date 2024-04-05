@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState, ChangeEvent, FormEvent } from "react";
-import { links } from "../utils/constant";
+import { developerInfo, links } from "../utils/constant";
 
 interface FormData {
   name: string;
@@ -163,11 +163,10 @@ export default function Contact() {
             for Something special
           </h2>
           <p className="text-gray-500 mb-4">
-            I seek to push the limits of creativity to create high-engaging,
-            user-friendly, and memorable interactive experiences.
+            {developerInfo.contact}
           </p>
-          <p className="text-lg lg:text-xl mb-4">Youremail@gmail.com</p>
-          <p className="text-lg lg:text-xl mb-4">1234567890</p>
+          <p className="text-lg lg:text-xl mb-4">{developerInfo.mail}</p>
+          <p className="text-lg lg:text-xl mb-4">{developerInfo.phone}</p>
         </div>
       </div>
     </div>

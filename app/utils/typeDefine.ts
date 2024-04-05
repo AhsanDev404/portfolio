@@ -23,7 +23,10 @@ export interface DeveloperInfo {
   type: string;
   country: string;
   description: string;
-  skills:string
+  skills:string;
+  contact:string;
+  mail:string;
+  phone:string;
 
 }
 export interface Skill {
