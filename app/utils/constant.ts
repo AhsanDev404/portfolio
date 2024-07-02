@@ -1,4 +1,3 @@
-// constants.ts
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { DeveloperInfo, Experience, LinkType, NavButtons, Project, Skill, Tab } from "./typeDefine";
@@ -12,30 +11,32 @@ import {
   FaNodeJs,
   FaDatabase,
   FaDocker,
-  // FaKubernetes,
   FaGitAlt,
   FaSass,
   FaBootstrap,
-  // FaTailwind,
-  // FaGraphql,
-  // FaApi,
   FaMobileAlt,
-  // FaRedux
+  FaPython,
+  FaJava,
+  FaPhp,
+  FaAws,
 } from 'react-icons/fa';
+import { SiTypescript, SiTailwindcss, SiPostgresql, SiMysql, SiRedis, SiMongodb, SiCplusplus, SiC, SiJira, SiAsana, SiTrello, SiSlack, SiMicrosoftteams, SiCypress, SiJest } from 'react-icons/si';
 import { project } from "./assets";
+
 export const developerInfo: DeveloperInfo = {
   name: "AhsanDev404",
-  fullName: "Ahsan",
+  fullName: "Muhammad Ahsan",
   gender: "male",
   type: "MERN Stack",
   country: "Pakistan",
   description:
-    "With a solid foundation in MERN stack development, I specialize in crafting robust web and mobile applications. My expertise extends to Next.js and React Native, enabling me to deliver seamless user experiences across platforms. Passionate about the intersection of technology and innovation, I harness the power of artificial intelligence (AI) to develop intelligent solutions that optimize processes and drive business growth.",
-    skills: `I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me. \nI began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more. When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.`,
-  contact :"I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.",
-  mail:"ahsan.dev.404@gmail.com",
-  phone:"+92 303 525135"
+    "Passionate and results-oriented MERN Stack Developer with over two years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.",
+  skills: `Passionate and results-oriented MERN Stack Developer with over two years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.`,
+  contact: "I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.",
+  mail: "ahsan.dev.404@gmail.com",
+  phone: "+92 303 5251358",
 };
+
 export const links: LinkType[] = [
   {
     name: "linkedin",
@@ -71,45 +72,64 @@ export const skills: Skill[] = [
   { name: 'HTML', icon: FaHtml5 },
   { name: 'CSS', icon: FaCss3Alt },
   { name: 'JavaScript', icon: FaJs },
+  { name: 'TypeScript', icon: SiTypescript },
   { name: 'React', icon: FaReact },
-  { name: 'Angular', icon: FaAngular },
+  { name: 'Next.js', icon: FaReact },
+  { name: 'Redux', icon: FaReact },
   { name: 'Vue.js', icon: FaVuejs },
+  { name: 'Angular', icon: FaAngular },
   { name: 'Node.js', icon: FaNodeJs },
   { name: 'Express.js', icon: FaNodeJs },
-  { name: 'MongoDB', icon: FaDatabase },
-  { name: 'MySQL', icon: FaDatabase },
+  { name: 'Nest.js', icon: FaNodeJs },
+  { name: 'MongoDB', icon: SiMongodb },
+  { name: 'MySQL', icon: SiMysql },
+  { name: 'PostgreSQL', icon: SiPostgresql },
+  { name: 'Redis', icon: SiRedis },
+  { name: 'SQLite', icon: SiMongodb },
+  { name: 'Sequelize', icon: FaDatabase },
+  { name: 'Tailwind CSS', icon: SiTailwindcss },
+  { name: 'Material UI', icon: FaReact },
+  { name: 'Chakra UI', icon: FaReact },
+  { name: 'React Native', icon: FaMobileAlt },
   { name: 'Docker', icon: FaDocker },
-  // { name: 'Kubernetes', icon: FaKubernetes },
   { name: 'Git', icon: FaGitAlt },
   { name: 'SASS', icon: FaSass },
   { name: 'Bootstrap', icon: FaBootstrap },
-  // { name: 'Tailwind CSS', icon: FaTailwind },
-  // { name: 'GraphQL', icon: FaGraphql },
-  // { name: 'REST API', icon: FaApi },
-  { name: 'React Native', icon: FaMobileAlt },
-  // { name: 'Redux', icon: FaRedux },
+  { name: 'Cypress', icon: SiCypress },
+  { name: 'Jest', icon: SiJest },
+  { name: 'PHP', icon: FaPhp },
+  { name: 'AWS', icon: FaAws },
+  { name: 'Python', icon: FaPython },
+  { name: 'C++', icon: SiCplusplus },
+  { name: 'C', icon: SiC },
+  { name: 'Java', icon: FaJava },
+  { name: 'JIRA', icon: SiJira },
+  { name: 'Asana', icon: SiAsana },
+  { name: 'Trello', icon: SiTrello },
+  { name: 'Slack', icon: SiSlack },
+  { name: 'Microsoft Teams', icon: SiMicrosoftteams },
 ];
 
 export const experience: Experience[] = [
   {
-    companyName: "Tech Innovations Inc.",
+    companyName: "Tekvill",
     position: "Software Engineer",
-    learning: "Advanced algorithms and data structures, team collaboration, project management",
-    tenure: "June 2018 - August 2021",
+    learning: "MERN stack development, AI applications with OpenAI, web and mobile platforms",
+    tenure: "Feb 2024 - Present",
     icon: FaLinkedinIn
   },
   {
-    companyName: "Digital Solutions Co.",
-    position: "Web Developer",
-    learning: "Front-end development with React.js, responsive design principles, RESTful API integration",
-    tenure: "September 2021 - Present",
+    companyName: "Rubik's Solution",
+    position: "Associate Software Engineer",
+    learning: "MERN stack development, web and mobile platforms, innovative solutions",
+    tenure: "Aug 2023 - Jan 2024",
     icon: FaLinkedinIn
   },
   {
-    companyName: "Startup X",
-    position: "Product Manager",
-    learning: "Product lifecycle management, market analysis, user experience design",
-    tenure: "January 2016 - May 2018",
+    companyName: "IVT Technologies",
+    position: "Internship Trainee",
+    learning: "MERN stack development, teamwork, web development",
+    tenure: "Jun 2023 - Jul 2023",
     icon: FaLinkedinIn
   }
 ];
@@ -117,33 +137,69 @@ export const experience: Experience[] = [
 export const projects: Project[] = [
   {
     number: "01",
-    title: "Crypto Screener Application",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    title: "AI Document Analyzer",
+    description: "Developed an AI-powered document analysis system to automate the extraction of information from various document formats. Implemented advanced text recognition and analysis algorithms, utilized machine learning techniques, and integrated features for document organization, search, and retrieval.",
     image: project,
     type: "MERN",
-    link:"#",
+    link: "https://www.opendoc.ai/",
   },
   {
     number: "02",
-    title: "E-commerce Website Redesign",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    title: "AI Doctor Record Session and Generate Prescription",
+    description: "Created a platform to record doctor-patient sessions and automatically generate prescriptions based on diagnoses. Implemented user-friendly interface, utilized NLP techniques, and integrated features for generating prescriptions based on medical history and treatment guidelines.",
     image: project,
-    type: "NEXT",
-    link:"#",
+    type: "MERN",
+    link: "https://siy.ai/",
   },
   {
     number: "03",
-    title: "Mobile App Development",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
+    title: "Police Library and Student Management System",
+    description: "Developed a management system for police library and student management using satellite imaging and ML techniques. Integrated user authentication, implemented data entry and anomaly detection, and automated reporting and data analysis.",
     image: project,
-    type: "ReactNative",
-    link:"#",
+    type: "MERN",
+    link: "https://ims-client.vercel.app/",
   },
-  // Add more projects here...
+  {
+    number: "04",
+    title: "HOSPIPRO – Hotel Management System",
+    description: "Developed a management portal to streamline hotel operations, ensuring efficient workflow and user-friendly interfaces. Implemented booking management and customer service tools, integrated email and SMS notifications, and created comprehensive documentation.",
+    image: project,
+    type: "NEXT",
+    link: "https://hospi-pro-frontend.vercel.app/",
+  },
+  {
+    number: "05",
+    title: "Algomnia",
+    description: "Developed a platform for algorithmic trading and investment analysis, leveraging machine learning to analyze market trends and manage investment portfolios. Implemented machine learning algorithms, developed interactive dashboards, and integrated real-time data feeds.",
+    image: project,
+    type: "MERN",
+    link: "https://www.algomnia.com/",
+  },
+  {
+    number: "06",
+    title: "Probate Shepherd",
+    description: "Created a comprehensive platform for managing probate cases and legal documentation, streamlining workflows for attorneys and clients. Implemented features for tracking case progress, managing client information, and generating legal documents.",
+    image: project,
+    type: "MERN",
+    link: "https://www.probateshepherd.com/",
+  },
+  {
+    number: "07",
+    title: "Master Dashboard",
+    description: "Developed a comprehensive dashboard for monitoring and managing various business metrics and data analytics. Implemented dynamic data visualizations, integrated user authentication, and developed modular and reusable components.",
+    image: project,
+    type: "MERN",
+    link: "https://master.d3ph5hlmhewiob.amplifyapp.com/dashboard",
+  },
+  {
+    number: "08",
+    title: "MCCP Listing",
+    description: "Created a listing platform for managing and displaying multi-category classified ads with advanced filtering and search capabilities. Developed advanced search and filtering functionalities, implemented user-friendly interfaces, and integrated responsive design principles.",
+    image: project,
+    type: "NEXT",
+    link: "https://mccp-listing-eight.vercel.app/",
+  },
 ];
-
-
-
 
 export const tabs: Tab[] = [
   {
@@ -155,7 +211,5 @@ export const tabs: Tab[] = [
   {
     name: "NEXT",
   },
-  {
-    name: "ReactNative",
-  },
+  
 ];
