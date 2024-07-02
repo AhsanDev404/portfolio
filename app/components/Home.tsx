@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <Image
-          className="w-6/12"
+          className="md:w-6/12 w-full"
           src={developerInfo.gender === "female" ? heroFemale : heroMale}
           alt="hero image"
         />
