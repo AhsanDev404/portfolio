@@ -13,7 +13,7 @@ export interface Experience {
   position: string;
   learning: string;
   tenure: string;
-  icon: ComponentType;
+image:string;
 }
 
 export interface DeveloperInfo {

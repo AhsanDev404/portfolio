@@ -21,7 +21,7 @@ import {
   FaAws,
 } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss, SiPostgresql, SiMysql, SiRedis, SiMongodb, SiCplusplus, SiC, SiJira, SiAsana, SiTrello, SiSlack, SiMicrosoftteams, SiCypress, SiJest } from 'react-icons/si';
-import { project } from "./assets";
+import { project,opendoc,siy,police,hospi, algo, shpherd, sencare, mcp } from "./assets";
 
 export const developerInfo: DeveloperInfo = {
   name: "AhsanDev404",
@@ -107,7 +107,6 @@ export const skills: Skill[] = [
   { name: 'Asana', icon: SiAsana },
   { name: 'Trello', icon: SiTrello },
   { name: 'Slack', icon: SiSlack },
-  { name: 'Microsoft Teams', icon: SiMicrosoftteams },
 ];
 
 export const experience: Experience[] = [
@@ -116,21 +115,21 @@ export const experience: Experience[] = [
     position: "Software Engineer",
     learning: "MERN stack development, AI applications with OpenAI, web and mobile platforms",
     tenure: "Feb 2024 - Present",
-    icon: FaLinkedinIn
+    image:"/tekvill.jpeg"
   },
   {
     companyName: "Rubik's Solution",
     position: "Associate Software Engineer",
     learning: "MERN stack development, web and mobile platforms, innovative solutions",
     tenure: "Aug 2023 - Jan 2024",
-    icon: FaLinkedinIn
+  image:"/tekvill.jpeg"
   },
   {
     companyName: "IVT Technologies",
     position: "Internship Trainee",
     learning: "MERN stack development, teamwork, web development",
     tenure: "Jun 2023 - Jul 2023",
-    icon: FaLinkedinIn
+ image:"/tekvill.jpeg"
   }
 ];
 
@@ -139,7 +138,7 @@ export const projects: Project[] = [
     number: "01",
     title: "AI Document Analyzer",
     description: "Developed an AI-powered document analysis system to automate the extraction of information from various document formats. Implemented advanced text recognition and analysis algorithms, utilized machine learning techniques, and integrated features for document organization, search, and retrieval.",
-    image: project,
+    image: opendoc,
     type: "MERN",
     link: "https://www.opendoc.ai/",
   },
@@ -147,7 +146,7 @@ export const projects: Project[] = [
     number: "02",
     title: "AI Doctor Record Session and Generate Prescription",
     description: "Created a platform to record doctor-patient sessions and automatically generate prescriptions based on diagnoses. Implemented user-friendly interface, utilized NLP techniques, and integrated features for generating prescriptions based on medical history and treatment guidelines.",
-    image: project,
+    image: siy,
     type: "MERN",
     link: "https://siy.ai/",
   },
@@ -155,7 +154,7 @@ export const projects: Project[] = [
     number: "03",
     title: "Police Library and Student Management System",
     description: "Developed a management system for police library and student management using satellite imaging and ML techniques. Integrated user authentication, implemented data entry and anomaly detection, and automated reporting and data analysis.",
-    image: project,
+    image: police,
     type: "MERN",
     link: "https://ims-client.vercel.app/",
   },
@@ -163,7 +162,7 @@ export const projects: Project[] = [
     number: "04",
     title: "HOSPIPRO – Hotel Management System",
     description: "Developed a management portal to streamline hotel operations, ensuring efficient workflow and user-friendly interfaces. Implemented booking management and customer service tools, integrated email and SMS notifications, and created comprehensive documentation.",
-    image: project,
+    image: hospi,
     type: "NEXT",
     link: "https://hospi-pro-frontend.vercel.app/",
   },
@@ -171,7 +170,7 @@ export const projects: Project[] = [
     number: "05",
     title: "Algomnia",
     description: "Developed a platform for algorithmic trading and investment analysis, leveraging machine learning to analyze market trends and manage investment portfolios. Implemented machine learning algorithms, developed interactive dashboards, and integrated real-time data feeds.",
-    image: project,
+    image: algo,
     type: "MERN",
     link: "https://www.algomnia.com/",
   },
@@ -179,7 +178,7 @@ export const projects: Project[] = [
     number: "06",
     title: "Probate Shepherd",
     description: "Created a comprehensive platform for managing probate cases and legal documentation, streamlining workflows for attorneys and clients. Implemented features for tracking case progress, managing client information, and generating legal documents.",
-    image: project,
+    image: shpherd,
     type: "MERN",
     link: "https://www.probateshepherd.com/",
   },
@@ -187,7 +186,7 @@ export const projects: Project[] = [
     number: "07",
     title: "Master Dashboard",
     description: "Developed a comprehensive dashboard for monitoring and managing various business metrics and data analytics. Implemented dynamic data visualizations, integrated user authentication, and developed modular and reusable components.",
-    image: project,
+    image: sencare,
     type: "MERN",
     link: "https://master.d3ph5hlmhewiob.amplifyapp.com/dashboard",
   },
@@ -195,7 +194,7 @@ export const projects: Project[] = [
     number: "08",
     title: "MCCP Listing",
     description: "Created a listing platform for managing and displaying multi-category classified ads with advanced filtering and search capabilities. Developed advanced search and filtering functionalities, implemented user-friendly interfaces, and integrated responsive design principles.",
-    image: project,
+    image: mcp,
     type: "NEXT",
     link: "https://mccp-listing-eight.vercel.app/",
   },

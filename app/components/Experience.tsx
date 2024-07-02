@@ -1,5 +1,6 @@
 import React from "react";
 import { experience } from "../utils/constant";
+import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -13,12 +14,14 @@ export default function Experience() {
           <div className="mt-5 mx-5 lg:mt-10 lg:mx-10 border-2 p-5 lg:p-10 rounded-lg hover:bg-gray-950 cursor-pointer">
             <div className="lg:flex justify-between items-center">
               <div className="flex items-center gap-5">
-                <div>{<item.icon />}</div>
+                <div>
+                  <Image alt="company" src={item.image} width={25} height={30} />
+                </div>
                 <p className="font-semibold">{item.companyName}</p>
               </div>
               <p className="text-sm">{item.tenure}</p>
             </div>
-            <p className="text-xs lg:ml-9">{item.position}</p>
+            <p className="text-xs lg:ml-11">{item.position}</p>
             <p className="mt-5">{item.learning}</p>
           </div>
         ))}

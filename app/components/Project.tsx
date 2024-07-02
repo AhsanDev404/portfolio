@@ -40,10 +40,10 @@ export default function Project() {
             className={`lg:flex ${
               index % 2 === 0 ? "flex-row-reverse" : ""
             } items-center lg:m-10 m-5 gap-5`}
-          >
-            <Image src={item.image} alt="project image" />
+          > <p className="text-4xl font-bold md:hidden flex my-5">{item.number}</p>
+            <Image className="rounded-md md:w-[50%]" src={item.image} alt="project image"  />
             <div className="lg:w-[50%]">
-              <p className="text-4xl font-bold">{item.number}</p>
+              <p className="text-4xl font-bold md:flex hidden">{item.number}</p>
               <p className="text-3xl font-bold my-5">{item.title}</p>
               <p className="text-gray-500 mb-5">{item.description}</p>
               <Link className="text-gray-50" href={item.link}>
