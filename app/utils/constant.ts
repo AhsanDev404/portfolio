@@ -122,14 +122,14 @@ export const experience: Experience[] = [
     position: "Associate Software Engineer",
     learning: "MERN stack development, web and mobile platforms, innovative solutions",
     tenure: "Aug 2023 - Jan 2024",
-  image:"/tekvill.jpeg"
+  image:"/rubiks.jpeg"
   },
   {
     companyName: "IVT Technologies",
     position: "Internship Trainee",
     learning: "MERN stack development, teamwork, web development",
     tenure: "Jun 2023 - Jul 2023",
- image:"/tekvill.jpeg"
+ image:"/ivt.jpeg"
   }
 ];
 
