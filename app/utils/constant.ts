@@ -30,8 +30,8 @@ export const developerInfo: DeveloperInfo = {
   type: "MERN Stack",
   country: "Pakistan",
   description:
-    "Passionate and results-oriented MERN Stack Developer with over two years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.",
-  skills: `Passionate and results-oriented MERN Stack Developer with over two years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.`,
+    "Passionate and results-oriented MERN Stack Developer with over five years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.",
+  skills: `Passionate and results-oriented MERN Stack Developer with over five years of experience specializing in backend development. Adept at constructing robust and scalable web applications, with deep expertise in JavaScript and its frameworks, particularly Express.js and Next.js for backend tasks. Highly skilled in MongoDB for database management and ORM operations. Proficient in designing efficient, maintainable server-side logic, managing databases, and integrating APIs. Additionally experienced in frontend technologies, including Next.js and React, ensuring seamless and responsive user interfaces. Known for effective collaboration with cross-functional teams to deliver high-quality software solutions tailored to client and business requirements.`,
   contact: "I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.",
   mail: "ahsan.dev.404@gmail.com",
   phone: "+92 303 5251358",
@@ -45,7 +45,7 @@ export const links: LinkType[] = [
   },
   {
     name: "github",
-    link: "https://github.com/AhsanDev404",
+    link: "https://github.com/ZeroDev404",
     icon: FaGithubAlt,
   }
 ];
@@ -112,23 +112,23 @@ export const skills: Skill[] = [
 export const experience: Experience[] = [
   {
     companyName: "Tekvill",
-    position: "Software Engineer",
+    position: "Senior Software Engineer",
     learning: "MERN stack development, AI applications with OpenAI, web and mobile platforms",
-    tenure: "Feb 2024 - Present",
+    tenure: "",
     image:"/tekvill.jpeg"
   },
   {
     companyName: "Rubik's Solution",
-    position: "Associate Software Engineer",
+    position: "Junior Software Engineer",
     learning: "MERN stack development, web and mobile platforms, innovative solutions",
-    tenure: "Aug 2023 - Jan 2024",
+    tenure: "",
   image:"/rubiks.jpeg"
   },
   {
     companyName: "IVT Technologies",
-    position: "Internship Trainee",
+    position: "Associate Software Engineer ",
     learning: "MERN stack development, teamwork, web development",
-    tenure: "Jun 2023 - Jul 2023",
+    tenure: "",
  image:"/ivt.jpeg"
   }
 ];
