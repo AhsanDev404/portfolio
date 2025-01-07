@@ -13,5 +13,9 @@ import algo from "../../public/algo.png"
 import shpherd from "../../public/shpherd.png"
 import sencare from "../../public/sencare.png"
 import mcp from "../../public/mcp.png"
+import guru from "../../public/guru.jpg"
+import op from "../../public/off-plans.jpg"
+import hp from "../../public/homepathway.jpg"
+import pt from "../../public/printall.jpg"
 
-export { logo, logoWhite, heroMale, heroFemale , skillMale , project , skillFemale,opendoc ,siy,police,hospi,algo,shpherd,sencare,mcp};
+export { logo, logoWhite, heroMale, heroFemale , skillMale , project , skillFemale,opendoc ,siy,police,hospi,algo,shpherd,sencare,mcp, pt, hp, op, guru};
