@@ -45,7 +45,7 @@ export const links: LinkType[] = [
   },
   {
     name: "github",
-    link: "https://github.com/ZeroDev404",
+    link: "https://github.com/AhsanDev404",
     icon: FaGithubAlt,
   }
 ];
